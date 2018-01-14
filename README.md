@@ -4,13 +4,9 @@ Easy animated scrolling to target element.
 
 ## **Install**
 
----
-
     ember install ember-scroll-to-target
 
 ## **Usage**
-
----
 
 With `label` attribute:
 
