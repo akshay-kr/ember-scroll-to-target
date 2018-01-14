@@ -1,9 +1,5 @@
 {
   "name": "ember-scroll-to-target",
-  "dependencies": {
-    "ember": "components/ember#canary"
-  },
-  "resolutions": {
-    "ember": "canary"
-  }
+  "dependencies": {}
 }
+
