@@ -1,4 +1,4 @@
-# ember-scroll-to-target
+# ember-scroll-to-target [![Build Status](https://travis-ci.org/akshay-kr/ember-scroll-to-target.svg?branch=master)](https://travis-ci.org/akshay-kr/ember-scroll-to-target)
 
 Easy animated scrolling to target element.
 
