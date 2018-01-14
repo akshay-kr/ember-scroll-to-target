@@ -1,0 +1,9 @@
+{{#unless has-block}}
+  {{#if tagname}}
+    <{{tagName}}>{{label}}</{{tagName}}>
+  {{else}}
+    {{label}}
+  {{/if}}
+{{else}}
+  {{yield}}
+{{/unless}}

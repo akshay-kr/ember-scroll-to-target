@@ -1,5 +1,68 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="action-container">
+  {{scroll-to
+    label="Scroll to div1"
+    target="#div1"
+    tagName="a"
+    classNames="scroll-btn"
+  }}
+  {{scroll-to
+    label="Scroll to div2"
+    target="#div2"
+    tagName="a"
+    classNames="scroll-btn"
+  }}
+  {{scroll-to
+    label="Scroll to div3"
+    target="#div3"
+    tagName="a"
+    duration=1000
+    classNames="scroll-btn"
+  }}
+  {{scroll-to
+    label="Scroll to div4"
+    target="#div4"
+    tagName="a"
+    duration=200
+    classNames="scroll-btn"
+  }}
+</div>
+<div id="div1" class="target">
+  <h2>Div1</h2>
+</div>
+<div id="div2" class="target">
+  <h2>Div2</h2>
+</div>
+<div id="div3" class="target">
+  <h2>Div3</h2>
+</div>
+<div id="div4" class="target">
+  <h2>Div4</h2>
+</div>
+<div class="action-container">
+  {{scroll-to
+    label="Scroll to div1"
+    target="#div1"
+    tagName="a"
+    classNames="scroll-btn"
+  }}
+  {{scroll-to
+    label="Scroll to div2"
+    target="#div2"
+    tagName="a"
+    classNames="scroll-btn"
+  }}
+  {{scroll-to
+    label="Scroll to div3"
+    target="#div3"
+    tagName="a"
+    duration=1000
+    classNames="scroll-btn"
+  }}
+  {{scroll-to
+    label="Scroll to div4"
+    target="#div4"
+    tagName="a"
+    duration=200
+    classNames="scroll-btn"
+  }}
+</div>

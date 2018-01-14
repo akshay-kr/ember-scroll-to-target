@@ -3,22 +3,27 @@
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember",
+    "ember-addon",
+    "scroll",
+    "scroll-to",
+    "scroll-to-target"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Akshay Kumar",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/akshay-kr/ember-scroll-to-target",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-htmlbars": "^1.1.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -26,7 +31,6 @@
     "ember-cli": "2.12.0",
     "ember-cli-dependency-checker": "^1.3.0",
     "ember-cli-eslint": "^3.0.0",
-    "ember-cli-htmlbars": "^1.1.1",
     "ember-cli-htmlbars-inline-precompile": "^0.3.6",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-qunit": "^3.1.0",
@@ -37,9 +41,8 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.6.0",
     "ember-resolver": "^2.0.3",
-    "ember-source": "~2.12.0",
-    "ember-welcome-page": "^2.0.2",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "bower": "^1.8.2"
   },
   "engines": {
     "node": ">= 4"
