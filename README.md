@@ -40,3 +40,15 @@ With template block:
 | tagname   | Tagname for the component template. (Optional)                                          |
 | duration  | Scroll animation duration. Default is 500. (Optional)                                   |
 | offset    | Additional offset if required. (Optional)                                               |
+
+## Demo
+
+Visit below ember twiddle for working demo.
+
+https://ember-twiddle.com/21bb3d46c665718d8b78b5c036ad6529
+
+## Tests
+
+    cd tests/dummy
+    ember server
+    Open http://localhost:4200/tests

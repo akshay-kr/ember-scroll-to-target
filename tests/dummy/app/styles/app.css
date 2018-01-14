@@ -1,8 +1,11 @@
 .action-container {
   padding-top: 40px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .scroll-btn {
+  flex: 0 0 1;
+  text-align: center;
   cursor: pointer;
   font-weight: bold;
   color: #083d8d;
