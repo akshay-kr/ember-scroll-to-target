@@ -1,7 +1,7 @@
 {
   "name": "ember-scroll-to-target",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Easy animated scroll to target element.",
   "keywords": [
     "ember",
     "ember-addon",
