@@ -1,6 +1,6 @@
 {
   "name": "ember-scroll-to-target",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Easy animated scroll to target element.",
   "keywords": [
     "ember",
