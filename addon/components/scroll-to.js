@@ -8,21 +8,25 @@ export default Ember.Component.extend({
   duration: 500,
   didInsertElement() {
     const self = this;
+
+    document.querySelector(`#${this.get("elementId")}`)
+      .addEventListener("click", function () {
+        self.scrollToTarget();
+      });
+  },
+
+  scrollToTarget() {
     const target = this.get("target");
     const offset = this.get("offset");
     const duration = this.get("duration");
+
     if (!target) {
       Ember.Logger.error("Target should be passed");
       return;
     }
-    document.querySelector(`#${this.get("elementId")}`)
-      .addEventListener("click", function () {
-        self.scrollToTarget(target, offset, duration);
-      });
-  },
 
-  scrollToTarget(target, offset, duration) {
     const targetPos = document.querySelector(target).offsetTop + offset;
+
     this.animateScroll(targetPos, duration)
   },
 
